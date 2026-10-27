@@ -1,0 +1,657 @@
+{
+  "researchDate": "2026-10-27",
+  "venture": {
+    "name": "FoldMate (working name)",
+    "concept": "A proposed home appliance that identifies and folds clean clothes, returning folded items to a tray or compartment.",
+    "primaryProduct": "Residential automatic clothes-folding machine; proposed retail estimate from the supplied Venture Workspace is $799–$1,299.",
+    "targetCustomers": [
+      "High-laundry-volume households",
+      "Busy parents and families",
+      "People working long hours",
+      "College students",
+      "Older adults and people with limited mobility"
+    ],
+    "valueProposition": "Reduce the time and physical effort of repetitive clothing folding so households can spend time elsewhere.",
+    "geography": "Nationwide United States (venture assumption from supplied workspace).",
+    "channels": [
+      "Not specified in supplied workspace; direct-to-consumer online sales are a research assumption only."
+    ],
+    "features": [
+      "Clothing identification",
+      "Folding for common garments",
+      "Compact home design",
+      "Simple controls",
+      "Finished-clothing compartment"
+    ],
+    "unknowns": [
+      "Commercial design, capacity, speed, reliability, warranty, unit economics, distribution channel, and whether this is a complete machine or a folding aid are not established."
+    ]
+  },
+  "competitors": [
+    {
+      "id": "WEAVE",
+      "name": "Weave Robotics",
+      "classification": "Direct",
+      "website": "https://www.weaverobotics.com/",
+      "market": "United States; Isaac 0 shipping to California residents; Isaac 1 preorders with California first and broader U.S. deliveries stated for 2027.",
+      "target": "Households willing to pay a premium for home robotics and laundry automation.",
+      "products": "Isaac 0 stationary laundry folding robot; Isaac 1 mobile household robot with laundry folding and additional chores.",
+      "positioning": "Premium early-release home robotics; Isaac 0 offers a focused folding task while Isaac 1 adds broader home assistance.",
+      "features": "Isaac 0 uses a blend of autonomy and remote teleoperation, folds common garments, and needs a work surface; Isaac 1 adds mobility and broader chores.",
+      "reason": "The closest identified currently offered direct alternative: a home robot that folds household laundry.",
+      "representative": "Isaac 0, up-front option",
+      "representativePrice": 3999,
+      "representativeUnit": "USD up-front, plus $49/month on this payment option",
+      "representativeModel": "One-time up-front charge plus recurring monthly fee",
+      "representativeVerification": "Verified"
+    },
+    {
+      "id": "BRAB",
+      "name": "Brabantia",
+      "classification": "Direct functional substitute",
+      "website": "https://www.brabantia.com/us/laundry-folding-board-soft-beige/",
+      "market": "U.S. online storefront; delivery terms and free-shipping threshold apply.",
+      "target": "Households seeking a compact manual tool for uniform folds and closet organization.",
+      "products": "Laundry Folding Board in Soft Beige.",
+      "positioning": "Design-led household product positioned around durability, ease of storage, and a 2-year guarantee.",
+      "features": "Manual board for shirts and sweaters, on-board instructions, closet hook, and 2-year warranty.",
+      "reason": "An in-stock, verified-price manual alternative for the same folding task, though it does not automate folding.",
+      "representative": "Laundry Folding Board - Soft Beige",
+      "representativePrice": 18.5,
+      "representativeUnit": "USD per board",
+      "representativeModel": "One-time purchase",
+      "representativeVerification": "Verified"
+    },
+    {
+      "id": "FLIP",
+      "name": "FlipFold",
+      "classification": "Direct functional substitute",
+      "website": "https://flipfold.com/",
+      "market": "U.S. direct online sales; official site says it also ships to Canada and the U.K.",
+      "target": "Households plus retailers, manufacturers, screen printers, and embroiderers seeking uniform garment folds.",
+      "products": "Adult and Junior folding boards; adult and mixed-size multipacks.",
+      "positioning": "Manual folding tool positioned around time savings and consistent folds; U.S.-made polypropylene.",
+      "features": "Folds shirts, sweaters, pants, towels and other common garments; Adult folds to 9 x 12 inches, Junior to 7 x 10 inches.",
+      "reason": "A low-cost manual alternative to the proposed machine and a useful reference for the value of folding assistance.",
+      "representative": "FlipFold Shirt and Laundry Folder - Adult",
+      "representativePrice": 39.99,
+      "representativeUnit": "USD per board",
+      "representativeModel": "One-time purchase",
+      "representativeVerification": "Verified"
+    },
+    {
+      "id": "POPLIN",
+      "name": "Poplin",
+      "classification": "Indirect",
+      "website": "https://poplin.co/laundry-service",
+      "market": "Nationwide service in 500+ U.S. cities; local availability and price are ZIP-code dependent.",
+      "target": "Households wanting pickup, washing, drying, folding, and delivery handled by a person.",
+      "products": "On-demand wash-and-fold / fluff-and-fold pickup and delivery.",
+      "positioning": "Low-starting-price, app-booked outsourced laundry service with next-day standard turnaround.",
+      "features": "Pickup and delivery included in standard service areas; washed, dried, folded; local Laundry Pro; standard 24-hour turnaround.",
+      "reason": "Removes the folding task (and washing/drying) completely, making it a strong substitute for a machine.",
+      "representative": "Standard Wash & Fold (starting price)",
+      "representativePrice": 1,
+      "representativeUnit": "USD per pound; starting rate",
+      "representativeModel": "Pay per pound / per order",
+      "representativeVerification": "Verified"
+    },
+    {
+      "id": "RINSE",
+      "name": "Rinse",
+      "classification": "Indirect",
+      "website": "https://www.rinse.com/",
+      "market": "Selected U.S. metros and Toronto; service area must be checked by address.",
+      "target": "Urban households seeking scheduled pickup, laundry care, and folded delivery.",
+      "products": "Wash & Fold Flex and Full bags; optional Rinse Go subscription.",
+      "positioning": "Convenience-oriented managed laundry with bag-based pricing, delivery, and optional fee-waiver subscription.",
+      "features": "Bag-based washing and folding, pickup/delivery, garment preferences, and optional next-day rush service.",
+      "reason": "Outsourcing eliminates the whole laundry chore and competes for the same time-saving budget.",
+      "representative": "Wash & Fold Full bag",
+      "representativePrice": 75,
+      "representativeUnit": "USD per bag (30+ lb capacity description)",
+      "representativeModel": "Per bag, plus delivery/rush fees unless waived",
+      "representativeVerification": "Verified"
+    }
+  ],
+  "pricingOffers": [
+    {
+      "id": "BRAB-BOARD",
+      "competitorId": "BRAB",
+      "competitorName": "Brabantia",
+      "productName": "Laundry Folding Board - Soft Beige",
+      "description": "Manual folding board for shirts and sweaters, with step-by-step instructions and closet hook.",
+      "pricingModel": "One-time purchase",
+      "price": 18.5,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per board",
+      "features": [
+        "Manual uniform folding; closet hook; 2-year warranty"
+      ],
+      "representative": true,
+      "sourceUrl": "https://www.brabantia.com/us/laundry-folding-board-soft-beige/",
+      "sourceType": "Official manufacturer product page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official U.S. product page lists $18.50, marked in stock, and includes a 2-year warranty. Free shipping applies at orders of $80 or more.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "FLIP-ADULT",
+      "competitorId": "FLIP",
+      "competitorName": "FlipFold",
+      "productName": "FlipFold Shirt and Laundry Folder - Adult",
+      "description": "Manual folding board for adult clothing and linens.",
+      "pricingModel": "One-time purchase",
+      "price": 39.99,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per board",
+      "features": [
+        "Adult fold size 9 x 12 in; made in USA; instruction included"
+      ],
+      "representative": true,
+      "sourceUrl": "https://flipfold.com/",
+      "sourceType": "Official manufacturer storefront",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official site lists $39.99; shipping/tax not included in displayed price.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "FLIP-JR",
+      "competitorId": "FLIP",
+      "competitorName": "FlipFold",
+      "productName": "FlipFold Shirt and Laundry Folder - Junior",
+      "description": "Manual folding board sized for junior garments.",
+      "pricingModel": "One-time purchase",
+      "price": 39.99,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per board",
+      "features": [
+        "Junior fold size 7 x 10 in"
+      ],
+      "representative": false,
+      "sourceUrl": "https://flipfold.com/",
+      "sourceType": "Official manufacturer storefront",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official site lists $39.99; shipping/tax not included in displayed price.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "FLIP-2AD",
+      "competitorId": "FLIP",
+      "competitorName": "FlipFold",
+      "productName": "FlipFold Adult 2-Pack Combo",
+      "description": "Two adult manual folding boards.",
+      "pricingModel": "One-time bundle",
+      "price": 74.99,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per 2-pack",
+      "features": [
+        "Two adult folding boards"
+      ],
+      "representative": false,
+      "sourceUrl": "https://flipfold.com/",
+      "sourceType": "Official manufacturer storefront",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official site lists $74.99 for pack.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "FLIP-ADJR",
+      "competitorId": "FLIP",
+      "competitorName": "FlipFold",
+      "productName": "FlipFold Adult and Junior 2-Pack Combo",
+      "description": "One adult and one junior manual folding board.",
+      "pricingModel": "One-time bundle",
+      "price": 74.99,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per 2-pack",
+      "features": [
+        "Adult and junior boards"
+      ],
+      "representative": false,
+      "sourceUrl": "https://flipfold.com/",
+      "sourceType": "Official manufacturer storefront",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official site lists $74.99 for pack.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "WEAVE-I0-UP",
+      "competitorId": "WEAVE",
+      "competitorName": "Weave Robotics",
+      "productName": "Isaac 0 - Up-front option",
+      "description": "Stationary laundry folding robot; early-release product, shipping to California residents. Price option includes recurring fee.",
+      "pricingModel": "Up-front purchase plus recurring monthly fee",
+      "price": 3999,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "up-front; then $49/month",
+      "features": [
+        "Folds common garments; app control; ongoing support; early-release; remote assistance may be used"
+      ],
+      "representative": true,
+      "sourceUrl": "https://www.weaverobotics.com/isaac-0/order",
+      "sourceType": "Official manufacturer order page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official order page checked 2026-10-27: $3,999 up-front plus $49/month; $250 due to order today, stated refundable. Availability and terms can change.",
+      "recurringPrice": 49,
+      "refundableDeposit": 250
+    },
+    {
+      "id": "WEAVE-I0-SUB",
+      "competitorId": "WEAVE",
+      "competitorName": "Weave Robotics",
+      "productName": "Isaac 0 - Subscription option",
+      "description": "Stationary laundry folding robot on monthly subscription.",
+      "pricingModel": "Monthly subscription",
+      "price": 249,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per month",
+      "features": [
+        "Folding robot, no up-front unit price; warranty with active subscription"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.weaverobotics.com/isaac-0/order",
+      "sourceType": "Official manufacturer order page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official order page lists $249/month; confirm service term, cancellation, shipping and warranty details before comparing total cost.",
+      "recurringPrice": 249,
+      "refundableDeposit": 250
+    },
+    {
+      "id": "WEAVE-I1-UP",
+      "competitorId": "WEAVE",
+      "competitorName": "Weave Robotics",
+      "productName": "Isaac 1 - Up-front option",
+      "description": "Mobile household robot with laundry folding and broader household tasks; pre-order, first shipments planned for Fall 2026.",
+      "pricingModel": "Pre-order with up-front purchase option",
+      "price": 7999,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "up-front",
+      "features": [
+        "Laundry folding among broader home tasks; mobile robot"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.weaverobotics.com/isaac-1/order",
+      "sourceType": "Official manufacturer pre-order page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official order page lists $7,999 up-front; refundable $250 deposit to reserve. Shipping timing and scope are company-stated; broader U.S. availability is described for 2027.",
+      "recurringPrice": null,
+      "refundableDeposit": 250
+    },
+    {
+      "id": "WEAVE-I1-SUB",
+      "competitorId": "WEAVE",
+      "competitorName": "Weave Robotics",
+      "productName": "Isaac 1 - Subscription option",
+      "description": "Mobile household robot with laundry folding and broader household tasks; pre-order.",
+      "pricingModel": "Monthly subscription",
+      "price": 449,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per month",
+      "features": [
+        "Laundry folding among broader home tasks"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.weaverobotics.com/isaac-1/order",
+      "sourceType": "Official manufacturer pre-order page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official order page lists $449/month; refundable $250 deposit to reserve. Optional $99/month premium membership appears separately on page; not included here.",
+      "recurringPrice": 449,
+      "refundableDeposit": 250
+    },
+    {
+      "id": "WEAVE-I1-PREMIUM",
+      "competitorId": "WEAVE",
+      "competitorName": "Weave Robotics",
+      "productName": "Isaac 1 - Optional premium membership",
+      "description": "Optional add-on shown on Isaac 1 pre-order page; exact inclusion details not summarized there.",
+      "pricingModel": "Optional monthly subscription add-on",
+      "price": 99,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per month",
+      "features": [
+        "Optional premium membership; scope not specified on checkout page"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.weaverobotics.com/isaac-1/order",
+      "sourceType": "Official manufacturer pre-order page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Partially Verified",
+      "researchNotes": "$99/month appears as optional premium membership; benefits and whether it is required for specific features need confirmation.",
+      "recurringPrice": 99,
+      "refundableDeposit": null
+    },
+    {
+      "id": "POP-STANDARD",
+      "competitorId": "POPLIN",
+      "competitorName": "Poplin",
+      "productName": "Standard Wash & Fold - starting rate",
+      "description": "Pickup, wash, dry, fold and delivery, with local per-pound price shown before order confirmation.",
+      "pricingModel": "Pay per pound",
+      "price": 1,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per pound; starting price",
+      "features": [
+        "Pickup and delivery included in standard service areas; standard turnaround 24 hours"
+      ],
+      "representative": true,
+      "sourceUrl": "https://poplin.co/laundry-service",
+      "sourceType": "Official provider service page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official page states starts at $1/lb and local prices vary by ZIP code; 500+ U.S. cities.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "POP-INTRO",
+      "competitorId": "POPLIN",
+      "competitorName": "Poplin",
+      "productName": "New-customer first-order discount",
+      "description": "Introductory discount for a new customer’s first order.",
+      "pricingModel": "Promotional discount",
+      "price": 10,
+      "regularPrice": null,
+      "promotionalPrice": 10,
+      "currency": "USD",
+      "pricingUnit": "off first order",
+      "features": [
+        "Code LPC10; eligibility and expiration can change"
+      ],
+      "representative": false,
+      "sourceUrl": "https://poplin.co/laundry-service",
+      "sourceType": "Official provider service page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Partially Verified",
+      "researchNotes": "Official page displayed $10 off first order with code LPC10; coupon availability may change.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "RINSE-FLEX",
+      "competitorId": "RINSE",
+      "competitorName": "Rinse",
+      "productName": "Wash & Fold Flex Bag",
+      "description": "Wash-and-fold laundry in a bag described for about 15 pounds / one basket.",
+      "pricingModel": "Per-bag service",
+      "price": 45,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per bag; approx. 15 lb",
+      "features": [
+        "Wash, dry, fold; pickup and delivery fee may apply"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.rinse.com/services-pricing/wash-and-fold/",
+      "sourceType": "Official provider service and pricing page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official page lists $45 per Flex bag. $14.95 pickup/delivery and optional $9.95 next-day rush fees shown; waived with Rinse Go. Regional differences may apply.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "RINSE-FULL",
+      "competitorId": "RINSE",
+      "competitorName": "Rinse",
+      "productName": "Wash & Fold Full Bag",
+      "description": "Wash-and-fold laundry in a larger bag described as 30+ pounds / two or more baskets.",
+      "pricingModel": "Per-bag service",
+      "price": 75,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per bag; 30+ lb capacity description",
+      "features": [
+        "Wash, dry, fold; pickup and delivery fee may apply"
+      ],
+      "representative": true,
+      "sourceUrl": "https://www.rinse.com/services-pricing/wash-and-fold/",
+      "sourceType": "Official provider service and pricing page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official page lists $75 per Full bag. $14.95 pickup/delivery and optional $9.95 next-day rush fees shown; waived with Rinse Go. Regional differences may apply.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "RINSE-GO-M",
+      "competitorId": "RINSE",
+      "competitorName": "Rinse",
+      "productName": "Rinse Go - monthly",
+      "description": "Subscription waiving pickup/delivery, rush, and minimum-order fees across covered services.",
+      "pricingModel": "Monthly subscription",
+      "price": 14.95,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per month",
+      "features": [
+        "Waives pickup/delivery and rush fees"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.rinse.com/faqs/Credits-Promos-and-Discounts/",
+      "sourceType": "Official provider FAQ",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official FAQ lists $14.95/month; service and availability terms may change.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "RINSE-GO-A",
+      "competitorId": "RINSE",
+      "competitorName": "Rinse",
+      "productName": "Rinse Go - annual",
+      "description": "Annual subscription waiving pickup/delivery, rush, and minimum-order fees across covered services.",
+      "pricingModel": "Annual subscription",
+      "price": 149.5,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per year",
+      "features": [
+        "Waives pickup/delivery and rush fees"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.rinse.com/faqs/Credits-Promos-and-Discounts/",
+      "sourceType": "Official provider FAQ",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official FAQ lists $149.50/year; service and availability terms may change.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "RINSE-PICKUP",
+      "competitorId": "RINSE",
+      "competitorName": "Rinse",
+      "productName": "Pickup & Delivery fee",
+      "description": "Per-order service fee, waived with Rinse Go.",
+      "pricingModel": "Per-order fee",
+      "price": 14.95,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per order",
+      "features": [
+        "Pickup and delivery"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.rinse.com/services-pricing/wash-and-fold/",
+      "sourceType": "Official provider service and pricing page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official page lists $14.95 per order; waived with Rinse Go.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    },
+    {
+      "id": "RINSE-RUSH",
+      "competitorId": "RINSE",
+      "competitorName": "Rinse",
+      "productName": "Next-Day Rush fee",
+      "description": "Optional next-day return service fee, waived with Rinse Go.",
+      "pricingModel": "Optional per-order fee",
+      "price": 9.95,
+      "regularPrice": null,
+      "promotionalPrice": null,
+      "currency": "USD",
+      "pricingUnit": "per order",
+      "features": [
+        "Next-day wash-and-fold return"
+      ],
+      "representative": false,
+      "sourceUrl": "https://www.rinse.com/services-pricing/wash-and-fold/",
+      "sourceType": "Official provider service and pricing page",
+      "researchDate": "2026-10-27",
+      "verificationStatus": "Verified",
+      "researchNotes": "Official page lists $9.95 per order; optional and waived with Rinse Go.",
+      "recurringPrice": null,
+      "refundableDeposit": null
+    }
+  ],
+  "pricingAnalysis": {
+    "comparableGroups": [
+      {
+        "label": "Home folding machines - listed up-front unit price only",
+        "offerIds": [
+          "WEAVE-I0-UP",
+          "WEAVE-I1-UP"
+        ],
+        "count": 2,
+        "minimum": 3999,
+        "maximum": 7999,
+        "average": 5999,
+        "median": 5999,
+        "caveat": "Excludes all recurring monthly fees and refundable reservation deposits. Isaac 0 is early release; Isaac 1 is pre-order."
+      },
+      {
+        "label": "Manual folding board verified product prices",
+        "offerIds": [
+          "BRAB-BOARD",
+          "FLIP-ADULT"
+        ],
+        "count": 2,
+        "minimum": 18.5,
+        "maximum": 39.99,
+        "average": 29.245,
+        "median": 29.245,
+        "caveat": "Both product prices were verified on official manufacturer pages; both are manual folding tools and are not equivalent to an automatic appliance. "
+      }
+    ],
+    "nonComparable": "Poplin per-pound wash/dry/fold service, Rinse per-bag service, subscription fees, and one-time hardware prices are kept separate; no blended statistics are calculated."
+  },
+  "preliminaryPricingRecommendation": {
+    "range": {
+      "low": 799,
+      "high": 1299,
+      "currency": "USD"
+    },
+    "basis": "The venture worksheet already proposes $799–$1,299. Keep it as a preliminary test range, not an optimal price: it is far above manual folding boards ($18.50 verified, in-stock Brabantia board and $39.99 FlipFold adult board) and materially below Weave Isaac 0 ($3,999 up-front plus $49/month).",
+    "position": "An accessible automatic appliance between manual folding aids and premium robotics, if the venture can demonstrate meaningful automation, a low-touch workflow, compact footprint, garment coverage, and reliable operation.",
+    "tests": [
+      "Test $799, $999, and $1,299 price concepts with target households using a clear prototype and specific performance claims.",
+      "Test the monthly-fee trade-off against a one-time purchase and expected warranty/support costs.",
+      "Measure willingness to pay separately among high-volume households and people who find folding physically difficult."
+    ],
+    "caveat": "Competitor research alone does not establish willingness to pay, product costs, margins, demand, or an optimal selling price."
+  },
+  "researchLimitations": [
+    "Prices and availability were checked on official websites on 2026-10-27 and may change; location, shipping, taxes, add-on services, and order fees affect totals.",
+    "A BoxLegend folding board was reviewed but excluded from the competitor set because the official product page showed it as sold out; its displayed price was not treated as a current transaction price.",
+    "Weave products are early-release or pre-order offerings with California-first restrictions and ongoing subscriptions. These are the closest direct machine benchmarks but are not identical to the proposed unbuilt concept.",
+    "Poplin price is a starting price and varies by ZIP code. Rinse bag prices and fees can vary by service area. Their service units are not directly comparable to appliance purchase prices.",
+    "Only two posted up-front machine prices were comparable enough for a small machine benchmark; any mean or median is descriptive and not a market average.",
+    "No cost, margin, customer survey, or willingness-to-pay evidence was supplied. Pricing recommendation remains preliminary."
+  ],
+  "sources": [
+    {
+      "competitor": "Weave Robotics Isaac 0",
+      "url": "https://www.weaverobotics.com/isaac-0",
+      "purpose": "Capabilities, product status, service area and FAQ price options."
+    },
+    {
+      "competitor": "Weave Robotics Isaac 0 Order",
+      "url": "https://www.weaverobotics.com/isaac-0/order",
+      "purpose": "Current Isaac 0 order page price, deposit and terms."
+    },
+    {
+      "competitor": "Weave Robotics Isaac 1",
+      "url": "https://www.weaverobotics.com/isaac-1",
+      "purpose": "Isaac 1 features, price and shipping timing."
+    },
+    {
+      "competitor": "Weave Robotics Isaac 1 Order",
+      "url": "https://www.weaverobotics.com/isaac-1/order",
+      "purpose": "Current Isaac 1 pre-order price and deposit."
+    },
+    {
+      "competitor": "Brabantia",
+      "url": "https://www.brabantia.com/us/laundry-folding-board-soft-beige/",
+      "purpose": "Current product price, stock status, features and warranty."
+    },
+    {
+      "competitor": "BoxLegend V1 (excluded)",
+      "url": "https://boxlegend.net/products/boxlegend-v1-t-shirt-clothes-folder-t-shirt-folding-board-blue",
+      "purpose": "Relevant alternative reviewed but excluded from competitor count because its official product listing was sold out."
+    },
+    {
+      "competitor": "FlipFold",
+      "url": "https://flipfold.com/",
+      "purpose": "Product lineup and current prices."
+    },
+    {
+      "competitor": "Poplin",
+      "url": "https://poplin.co/laundry-service",
+      "purpose": "Nationwide service, starting price, unit and local price qualifications."
+    },
+    {
+      "competitor": "Rinse",
+      "url": "https://www.rinse.com/services-pricing/wash-and-fold/",
+      "purpose": "Wash & Fold bag prices, shipping, rush fees and product inclusions."
+    },
+    {
+      "competitor": "Rinse FAQ",
+      "url": "https://www.rinse.com/faqs/Credits-Promos-and-Discounts/",
+      "purpose": "Rinse Go monthly/annual subscription prices and fee waivers."
+    }
+  ]
+}
